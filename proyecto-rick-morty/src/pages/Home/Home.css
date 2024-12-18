@@ -1,0 +1,46 @@
+.fondotrasparente{
+    background-color: rgba(255, 255, 255, 0.9);
+    box-sizing: border-box;
+   color:#344d67 ;
+    justify-self: center;
+   max-width:600px;
+   height: 600px;
+   text-align: center;
+  
+}
+
+.r2{
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 65px;
+}
+h2{margin-top: 1.5rem;
+font-weight: 300;
+font-size: 32px;}
+
+@media (max-width: 800px) {
+    h2{
+      color: #6eccaf;
+    }
+  }
+
+ @media (max-width: 768px) {
+    .c3po {
+        align-items: center;
+        flex-direction: column;
+        gap: 0;
+      
+    }
+}
+@media (max-width: 768px) {
+    .button-wel {
+        margin-top: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .fondotrasparente {
+        width: 662px;
+        
+    }
+}

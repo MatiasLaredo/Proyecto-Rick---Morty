@@ -1,0 +1,78 @@
+.darth {
+    padding-top: 160px;
+    width: 100%;
+
+}
+
+.aire{
+     padding-top: 0 !important;
+     padding: .5rem !important;
+     grid-template-columns: 1fr;
+     justify-content: space-between;
+     display: none;
+     flex-direction: column;
+     
+}
+
+.azul{
+    color: #344d67;
+    display: none
+}
+
+
+@media(min-width:768px){
+    .pepe{
+        display: none !important; 
+
+    }
+    .container-filter{
+        flex-direction: column;
+    }
+
+.mobile-filters{
+    display: none !important;
+}
+    
+.azul{
+display: flex;
+}
+
+
+.aire{
+    display: flex;
+    flex-direction: row;
+}
+}
+
+
+
+
+
+
+
+.dogo {
+    background-color: #6eccaf;
+
+    height: 57px;
+    width: 95%;
+}
+
+.pelota{
+    color: #344d67;
+}
+.pastor{
+   
+    border-radius: 15px;
+   
+    margin: 2px;
+    width: 50%;
+    height: 80px;
+ 
+}
+.arco{
+    color: #6eccaf;
+}
+.pepe{ background-color:  #344d67; 
+    justify-content: space-around; margin:0px 80px;
+    border-radius: 15px !important;
+   }

@@ -1,0 +1,70 @@
+
+.helado{
+  background-color: #223142;
+    height: 470px;
+    margin: 8px;
+    padding: 8px;
+    width: fit-content;
+    display: flex;
+  flex-direction: column; 
+  justify-content: center;
+}
+.botella{width: 300px;}
+
+.martin {
+  color: #6eccaf !important;
+  
+  font-size: 32px;
+}
+.text-center {
+  text-align: center !important;
+}
+
+@media (min-width: 1200px) {
+  .h2, h2 {
+      font-size: 2rem;
+  }
+}
+.monu{
+  background-color: #6eccaf !important;
+  
+  color: #344d67;
+
+}
+.charly{
+  position: relative; 
+  justify-content: end; 
+ display: flex;
+}
+.soda{  justify-content: end; 
+  display: flex;
+
+}
+.stereo{
+  background-color: #6eccaf;
+
+}
+.pescado{
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  
+ width: 300px;
+background-color: #223142;
+  border: none;
+padding: 1rem !important;
+margin-left: 20px;
+
+font-size: 19px;
+height: 70px;
+display: block;
+padding: 0.5rem 1rem; 
+color: #fff; 
+text-decoration: none; 
+
+
+}
+.pescado:hover{
+  background-color: #6eccaf; 
+      color:#344d67;
+      cursor: pointer
+    }
